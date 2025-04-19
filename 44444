@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #11483093;
+            margin: 0;
+            padding: 0;
+        }
+        .card {
+            max-width: 400px;
+            margin: 100px auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 2px 5px rgba(150, 14, 14, 0.3);
+            text-align: center;
+            border-radius: 10px;
+        }
+        .card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .card h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+        .card h2 {
+            margin: 10px 0;
+            font-weight: normal;
+            color: #777;
+        }
+        .card p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .card a {
+            display: inline-block;
+            margin: 10px 5px;
+            text-decoration: none;
+            color: #fff;
+            background: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .card a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Фото">
+        <h1>Андрей Кулинский</h1>
+        <h2>QA тестировшик</h2>
+        <p>Добро пожаловать на мою визитку! Я заимаюсь тестированием сайтов и мобильных приложений</p>
+        <a href="sdasdasd-s@bk.ru">Написать мне</a>
+        <a href="sdasdasd-s@bk.ru" target="_blank">GitHub</a>
+    </div>
+</body>
+</html>
